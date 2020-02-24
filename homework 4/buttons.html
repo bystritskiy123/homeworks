@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Кнопки</title>
+    <link  rel="stylesheet"  id="mestyle" href="./buttons.css"/>
+    
+</head>
+<body>
+<h2 align="center">Кнопки сайта</h2>
+<div class="firstbutton">
+<a href="./buttons(second page).html"><button>Вторая страница</button></a>
+</div>
+<button id="button" onclick="document.getElementsByTagName('button')[0].style.backgroundColor ='green'">
+  Замена стиля  
+</button>
+<button class="del" onclick="drawNewPage()">Удаление и отрисовка</button>
+<script>
+ function drawNewPage(){
+     document.getElementsByTagName("body")[0].innerHTML="";
+     location.replace("./homework 3/flex task.html");
+ }   
+</script>
+</body>
+</html>

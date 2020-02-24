@@ -1,0 +1,55 @@
+
+/*header*/
+#header{
+display:flex;     
+}
+#header #B1{
+border:10px solid orange;
+ background:orange;    
+width:30%; 
+padding:9%; 
+margin-top:2%;   
+}
+#header #B2{
+border:10px solid orange;
+ background:orange;    
+width:30%; 
+padding:9%; 
+margin-top:2%;
+ margin-left:5%;    
+}
+/*header*/
+
+/*основа*/
+#B3{
+border:10px solid yellow;    
+background:yellow;
+width:39%;
+padding:30%; 
+margin-top:2%;     
+}/*основа*/
+
+/*footer*/
+#footer{
+display:flex;     
+}
+#footer .B4{ 
+border:10px solid blue;    
+background:blue;
+width:50%;
+padding:10%;
+margin-top:2%;
+margin-left:1%;     
+}
+
+#one{
+display:flex;     
+}
+#one .two{
+border:10px solid gray;    
+background:gray;
+width:20%;
+padding:7%;
+margin-top:2%;
+margin-left:1%; 
+}

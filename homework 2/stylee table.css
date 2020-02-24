@@ -1,0 +1,58 @@
+
+/*Таблица header*/
+#T1 tr{
+display:flex;     
+}
+#T1 .td{
+border:100px solid orange;    
+ background:orange;
+width:250%;     
+padding:2%; 
+margin-top:2%;
+margin-left:10%;     
+}
+#T1 .tf{
+border:100px solid orange;    
+ background:orange;
+width:250%;     
+padding:2%;
+margin-left:380%;
+margin-top:-105%;     
+}
+/*Таблица header*/
+
+/*основа*/
+#T3{
+margin-top:2%;
+border:100px solid yellow;    
+background:yellow;
+width:100%;
+padding:20%;    
+}
+/*основа*/
+
+/*footer*/
+#footer{
+display:flex;     
+}
+#footer .B4{ 
+border:10px solid blue;    
+background:blue;
+width:50%;
+padding:10%;
+margin-top:2%;
+margin-left:1%;     
+}
+#T4{
+display:flex;
+margin-top:3%;     
+}
+#T4 .rt{
+ border:10px solid gray;    
+background:gray;
+width:50%;
+padding:5%;
+margin-left:1%;   
+}
+
+

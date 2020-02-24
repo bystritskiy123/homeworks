@@ -1,0 +1,35 @@
+#main{
+display:flex; 
+flex-direction:row;     
+}
+
+#main #a{
+background:red;
+width:20%;
+height:100px;
+margin-top:10px;
+margin-left:10px;
+}
+#main #b{
+background:blue;
+width:20%;
+height:100px;
+margin-top:10px;
+margin-left:10px;
+}
+#main #c{
+background:black;
+width:20%;
+height:100px;
+margin-left:10px;
+margin-top:10px; 
+}
+@media(max-width:700px){
+    #main{
+    display: flex;
+    flex-direction:column;     
+    }
+}
+
+
+

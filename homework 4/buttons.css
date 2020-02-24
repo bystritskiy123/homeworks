@@ -1,0 +1,35 @@
+
+.firstbutton a button{
+    text-align:center;
+    background: red;
+    width:25%;
+    padding:1%;
+    border-radius:10px 10px 10px 10px; 
+    font-size:120%;
+    margin-left:37.5%;
+}
+
+#button{
+ background:blue;
+    width:25%;
+    padding:1%;
+    border-radius:10px 10px 10px 10px; 
+    font-size:120%;
+    margin-left:37.5%;
+    margin-top:2%;
+}
+
+
+.del{
+background:gray;
+width:25%;
+    padding:1%;
+    border-radius:10px 10px 10px 10px; 
+    font-size:120%;
+    margin-left:37.5%;
+    margin-top:2%;
+}
+
+
+
+
